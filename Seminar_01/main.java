@@ -33,16 +33,17 @@ public class main {
     }
     
     public static ArrayList<Human> getArrayFamily(){
-        Human Homer = new Human(1, "Alex", "Male", 30, "Nuclear scientist", "Simson","Father");
-        Human Marge = new Human(2, "Marina", "Female", 24, "Housewife", "Simson", "Mother");
-        Human Bart = new Human(3, "Oleg", "Male", 16, "Schoolboy", "Simson", "Brother");
-        Human Lisa = new Human(4, "Larisa", "Female", 12, "Schoolgirl", "Simson", "Sister");
-        Human Meggie = new Human(5, "Margo", "Female", 4, "Kindergarten","Simson", "Sister");
-        Human Piter = new Human(6, "Petr", "Male", 30, "Worker", "Family Guy","Father");
-        Human Lois = new Human(7, "Lyda", "Female", 24, "Housewife", "Family Guy", "Mother");
-        Human Chris = new Human(8, "Gena", "Male", 16, "Schoolboy", "Family Guy", "Brother");
-        Human Meg = new Human(9, "Jana", "Female", 14, "Kindergarten", "Family Guy", "Sister");
-        Human Stewie = new Human(10, "Mihail", "Male", 16, "Schoolboy", "Family Guy", "Brother");
+        Human Homer = new Human(1, "Homer", "Male", 30, "Nuclear scientist", "Simson","Father");
+        Human Marge = new Human(2, "Marge", "Female", 24, "Housewife", "Simson", "Mother");
+        Human Bart = new Human(3, "Bart", "Male", 16, "Schoolboy", "Simson", "Brother");
+        Human Lisa = new Human(4, "Lisa", "Female", 12, "Schoolgirl", "Simson", "Sister");
+        Human Meggie = new Human(5, "Meggie", "Female", 4, "Kindergarten","Simson", "Sister");
+        Human Piter = new Human(6, "Piter", "Male", 30, "Worker", "Family Guy","Father");
+        Human Lois = new Human(7, "Lois", "Female", 24, "Housewife", "Family Guy", "Mother");
+        Human Chris = new Human(8, "Chris", "Male", 16, "Schoolboy", "Family Guy", "Brother");
+        Human Meg = new Human(9, "Meg", "Female", 14, "Kindergarten", "Family Guy", "Sister");
+        Human Stewie = new Human(10, "Stewie", "Male", 16, "Schoolboy", "Family Guy", "Brother");
+        
         
         ArrayList<Human> Family = new ArrayList<Human>();
         Family.add(Homer);
